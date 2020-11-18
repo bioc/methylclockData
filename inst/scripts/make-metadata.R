@@ -15,9 +15,9 @@ meta <- data.frame(
                            "guintivano dlpfc and ",
                            "saliva gse48472 ")
                    ),
-   BiocVersion = c("3.12"),
-   Genome = rep("hg19"),
-   SourceType = rep("RDA"),
+   BiocVersion = c("3.13"),
+   Genome = "hg19",
+   SourceType = "RDA",
    SourceUrl = "https://github.com/perishky/meffil/blob/master/inst/references.rda",
    SourceVersion = "June 2020",
    Species = "Homo sapiens",
@@ -26,11 +26,10 @@ meta <- data.frame(
    DataProvider = NA,
    Maintainer = "Juan R Gonzalez <juanr.gonzalez@isglobal.org>",
    RDataClass = c("List") ,
+   RDataPath = c('methylclockData/methylclock_references.rda' ),
    DispatchClass = c("Rda"),
-   Location_Prefix = "https://github.com/perishky/",
-   RDataPath = c("meffil/blob/master/inst/references.rda"),
    Tags = c("clock", "methylation clock", "EEAA method", "methylation profiles", "Cord blood", "CD4T", "CD8T", "Mono", "NK", "Bcell", "Neu", "Eos", "CD14"),
-   Notes = c("Notes")
+   # Notes = c("Notes")
 )
 
 write.csv(meta, file="inst/extdata/metadata.csv", row.names=FALSE)

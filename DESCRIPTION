@@ -1,5 +1,5 @@
 Package: methylclockData
-Title: What the Package Does (Title Case)
+Title: Data for methylclock package
 Description: Collection of 9 datasets, andrews and bakulski cord blood,
     blood gse35069, blood gse35069 chen, blood gse35069 complete, combined cord blood,
     cord blood gse68456, gervin and lyle cord blood, guintivano dlpfc and
