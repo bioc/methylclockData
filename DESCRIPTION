@@ -2,12 +2,18 @@ Package: methylclockData
 Title: Data for methylclock package
 Description: Collection of 9 datasets, andrews and bakulski cord blood,
     blood gse35069, blood gse35069 chen, blood gse35069 complete, combined cord blood,
-    cord blood gse68456, gervin and lyle cord blood, guintivano dlpfc and
+    cord bloo d gse68456, gervin and lyle cord blood, guintivano dlpfc and
     saliva gse48472" downloaded from [meffil](https://github.com/perishky/meffil/) 
     used to estimate cell counts using EEAA method
+<<<<<<< HEAD
 Version: 0.99.1
 Author: Juan R Gonzalez
 Maintainer: Juan R Gonzalez <juanr.gonzalez@isglobal.org>
+=======
+Version: 0.99.2
+Authors@R: c(person("Juan R.", "Gonzalez", , "juanr.gonzalez@isglobal.org", role = c("aut", "cre")),
+             person("Dolors", "Pelegri-Siso", , "dolors.pelegri@isglobal.org", role = "aut"))
+>>>>>>> origin/main
 biocViews: 
   GEO,
   ExperimentHub,
@@ -16,6 +22,7 @@ URL: https://github.com/isglobal-brge/methylclockData
 Depends: 
   Biobase, 
   ExperimentHubData,
-  ExperimentHub
+  ExperimentHub,
+  utils
 License: MIT + file LICENSE
 NeedsCompilation: no
