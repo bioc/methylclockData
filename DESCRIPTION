@@ -5,7 +5,7 @@ Description: Collection of 9 datasets, andrews and bakulski cord blood,
     cord bloo d gse68456, gervin and lyle cord blood, guintivano dlpfc and
     saliva gse48472" downloaded from [meffil](https://github.com/perishky/meffil/) 
     used to estimate cell counts using EEAA method
-Version: 0.99.7
+Version: 0.99.8
 Authors@R: c(person("Juan R.", "Gonzalez", , "juanr.gonzalez@isglobal.org", role = c("aut", "cre")),
              person("Dolors", "Pelegri-Siso", , "dolors.pelegri@isglobal.org", role = "aut"))
 biocViews: 
@@ -22,3 +22,4 @@ Imports:
   utils
 License: MIT + file LICENSE
 NeedsCompilation: no
+VignetteBuilder: knitr
