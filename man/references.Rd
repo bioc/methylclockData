@@ -2,10 +2,12 @@
 \alias{references.rda}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+ 'references' data
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+The methylclockData package is a repository of a few public datasets that
+needs the *methylclock* package to estimate chronological and gestational DNA
+methylation (DNAm) age as well as biological age using different methylation clocks.
 }
 \usage{data("references")}
 \format{
