@@ -3,9 +3,10 @@ Title: Data for methylclock package
 Description: Collection of 9 datasets, andrews and bakulski cord blood,
     blood gse35069, blood gse35069 chen, blood gse35069 complete, combined cord blood,
     cord bloo d gse68456, gervin and lyle cord blood, guintivano dlpfc and
-    saliva gse48472" downloaded from [meffil](https://github.com/perishky/meffil/) 
-    used to estimate cell counts using EEAA method
-Version: 0.99.9
+    saliva gse48472". Data downloaded from 
+    [meffil](https://github.com/perishky/meffil/). Data used to estimate
+    cell counts using EEAA method
+Version: 0.99.10
 Authors@R: c(person("Juan R.", "Gonzalez", , "juanr.gonzalez@isglobal.org", role = c("aut", "cre")),
              person("Dolors", "Pelegri-Siso", , "dolors.pelegri@isglobal.org", role = "aut"))
 biocViews: 
@@ -18,8 +19,6 @@ Depends:
   Biobase, 
   ExperimentHubData,
   ExperimentHub
-Imports:
-  utils
 Suggests: 
 	knitr, 
 	rmarkdown
