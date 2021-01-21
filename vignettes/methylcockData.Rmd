@@ -46,8 +46,6 @@ eh <-  ExperimentHub()
 # Get data about methylclockData experimentHub
 pData <- query(eh , "methylclockData")
 
-pData$prepareclass
-
 # Get information rows about methylclockData
 df <- mcols(pData)
 df
