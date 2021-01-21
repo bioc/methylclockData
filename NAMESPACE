@@ -1,1 +1,4 @@
-exportPattern("^[[:alpha:]]+")
+import(Biobase)
+import(ExperimentHub)
+import(ExperimentHubData)
+importFrom(utils, read.csv)
