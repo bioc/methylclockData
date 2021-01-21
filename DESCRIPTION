@@ -18,7 +18,6 @@ biocViews:
   Homo_sapiens_Data
 URL: https://github.com/isglobal-brge/methylclockData
 Imports: 
-  Biobase, 
   ExperimentHubData,
   ExperimentHub,
   utils
