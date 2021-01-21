@@ -6,7 +6,7 @@ Description: Collection of 9 datasets, andrews and bakulski cord blood,
     saliva gse48472". Data downloaded from 
     [meffil](https://github.com/perishky/meffil/). Data used to estimate
     cell counts using Extrinsic epigenetic age acceleration (EEAA) method
-Version: 0.99.15
+Version: 0.99.16
 Authors@R: c(person("Juan R.", "Gonzalez", , "juanr.gonzalez@isglobal.org", role = c("aut", "cre")),
              person("Dolors", "Pelegri-Siso", , "dolors.pelegri@isglobal.org", role = "aut"))
 BugReports: https://github.com/isglobal-brge/methylclockData/issues
