@@ -54,7 +54,7 @@ df
 pData["EH3913"]
 
 # Download data
-data <- pData[["EH3913"]]
+# data <- pData[["EH3913"]]
 
 ```
 For more information in how loading and use of the data, please, refer to [`MethylClock` vignette](https://github.com/isglobal-brge/methylclock) 
