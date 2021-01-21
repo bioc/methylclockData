@@ -39,8 +39,25 @@ ExperimentHub.
 
 ```{r get-tcga}
 library(ExperimentHub)
+
+# Get experimentHub records
 eh <-  ExperimentHub()
-query(eh , "methylclockData")
+
+# Get data about methylclockData experimentHub
+pData <- query(eh , "methylclockData")
+
+pData$prepareclass
+
+# Get information rows about methylclockData
+df <- mcols(pData)
+df
+
+# Retrieve data
+pData["EH3913"]
+
+# Download data
+data <- pData[["EH3913"]]
+
 ```
 For more information in how loading and use of the data, please, refer to [`MethylClock` vignette](https://github.com/isglobal-brge/methylclock) 
 

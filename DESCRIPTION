@@ -5,20 +5,23 @@ Description: Collection of 9 datasets, andrews and bakulski cord blood,
     cord bloo d gse68456, gervin and lyle cord blood, guintivano dlpfc and
     saliva gse48472". Data downloaded from 
     [meffil](https://github.com/perishky/meffil/). Data used to estimate
-    cell counts using EEAA method
-Version: 0.99.10
+    cell counts using Extrinsic epigenetic age acceleration (EEAA) method
+Version: 0.99.11
 Authors@R: c(person("Juan R.", "Gonzalez", , "juanr.gonzalez@isglobal.org", role = c("aut", "cre")),
              person("Dolors", "Pelegri-Siso", , "dolors.pelegri@isglobal.org", role = "aut"))
+BugReports: https://github.com/isglobal-brge/methylclockData/issues
 biocViews: 
-  GEO,
-  ExperimentHub,
   ExperimentData,
-  Tissue
+  SpecimenSource,
+  Tissue,
+  OrganismData,
+  Homo_sapiens_Data
 URL: https://github.com/isglobal-brge/methylclockData
-Depends: 
+Imports: 
   Biobase, 
   ExperimentHubData,
-  ExperimentHub
+  ExperimentHub,
+  utils
 Suggests: 
 	knitr, 
 	rmarkdown
