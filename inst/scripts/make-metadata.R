@@ -19,7 +19,7 @@ meta <- data.frame(
               "Methylation Data Example",
               "probe Annotation 21k",
               "Test Dataset",
-              "References"),
+              "References") ,
    Description = c( paste0("Predefined datasets included in this package are ",
                            "andrews and bakulski cord blood, ",
                            "blood gse35069, ",
@@ -50,17 +50,17 @@ meta <- data.frame(
                     "probe Annotation 21k",
                     "Test dataset",
                     "References"
-                   ),
-   BiocVersion = c("3.13"),
-   Genome = "hg19",
-   SourceType = "RDA",
-   SourceUrl = "https://github.com/perishky/meffil/blob/master/inst/references.rda",
-   SourceVersion = "May 2021",
-   Species = "Homo sapiens",
-   TaxonomyId = 9606,
-   Coordinate_1_based = FALSE,
-   DataProvider = NA,
-   Maintainer = "Juan R Gonzalez <juanr.gonzalez@isglobal.org>",
+                   ) ,
+   BiocVersion = c( rep("3.13", 17)) ,
+   Genome = c(rep("hg19",17)) ,
+   SourceType = c(rep("RDA",17) ) ,
+   SourceUrl =  "https://github.com/isglobal-brge/methylclock/blob/master/data",
+   SourceVersion = c("June 2020", rep( "May 2021", 16)) ,
+   Species = "Homo sapiens" ,
+   TaxonomyId = 9606 ,
+   Coordinate_1_based = FALSE ,
+   DataProvider = NA ,
+   Maintainer = "Juan R Gonzalez <juanr.gonzalez@isglobal.org>" ,
    RDataClass = c("List", "character", rep("data.frame",13), "Lists", "data.frame"  ) ,
    RDataPath = c( 'methylclockData/methylclock_references.rda',
                   'methylclockData/cpgs.bn.rda',
@@ -80,9 +80,9 @@ meta <- data.frame(
                   'methylclockData/TestDataset.rda',
                   'methylclockData/references.rda'
                  ) ,
-   DispatchClass = c("Rda") ,
-   Tags = c("clock", "methylation clock", "EEAA method", "methylation profiles", "Cord blood", "CD4T", "CD8T", "Mono", "NK", "Bcell", "Neu", "Eos", "CD14"),
-   # Notes = c("Notes")
+   DispatchClass = c(rep("Rda", 17) ) ,
+   Tags = "clock", "methylation clock", "EEAA method", "methylation profiles", "Cord blood", "CD4T", "CD8T", "Mono", "NK", "Bcell", "Neu", "Eos", "CD14",
+   Notes = ""
 )
 
 write.csv(meta, file="inst/extdata/metadata.csv", row.names=FALSE)
