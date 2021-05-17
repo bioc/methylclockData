@@ -30,7 +30,7 @@ meta <- data.frame(
                            "gervin and lyle cord blood, ",
                            "guintivano dlpfc and ",
                            "saliva gse48472 "),
-                    paste0(" Horvath’s CpGs to train a Bayesian Neural Network (BNN)",
+                    paste0("Horvath’s CpGs to train a Bayesian Neural Network (BNN)",
                            "Alfonso and Gonzalez (2020)"),
                     "96 CpGs described in Bohlin et al. (2016)",
                     "71 CpGs described in Hannum et al. (2013)",
@@ -81,8 +81,8 @@ meta <- data.frame(
                   'methylclockData/references.rda'
                  ) ,
    DispatchClass = c(rep("Rda", 17) ) ,
-   Tags = "clock", "methylation clock", "EEAA method", "methylation profiles", "Cord blood", "CD4T", "CD8T", "Mono", "NK", "Bcell", "Neu", "Eos", "CD14",
+   Tags = "",
    Notes = ""
 )
 
-write.csv(meta, file="inst/extdata/metadata.csv", row.names=FALSE)
+write.csv(meta, file="inst/extdata/metadata_v2021_05.csv", row.names=FALSE)

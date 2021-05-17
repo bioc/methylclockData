@@ -1,4 +1,8 @@
-Changes in version 1.0.0
-------------------------
+Changes in version 0.99.17
+--------------------------
+  - added new data
+
+Changes in version 0.99.16
+--------------------------
   - submission to Bioconductor
 
