@@ -3,20 +3,30 @@ Title: Data for methylclock package
 Description: Collection of 9 datasets, andrews and bakulski cord blood,
     blood gse35069, blood gse35069 chen, blood gse35069 complete, combined cord blood,
     cord bloo d gse68456, gervin and lyle cord blood, guintivano dlpfc and
-    saliva gse48472" downloaded from [meffil](https://github.com/perishky/meffil/) 
-    used to estimate cell counts using EEAA method
-Version: 0.99.4
+    saliva gse48472". Data downloaded from 
+    [meffil](https://github.com/perishky/meffil/). Data used to estimate
+    cell counts using Extrinsic epigenetic age acceleration (EEAA) method
+    Collection of 12 datasets to use with MethylClock package to estimate
+    chronological and gestational DNA methylationwith estimators to use wit
+    different methylation clocks
+Version: 0.99.18
 Authors@R: c(person("Juan R.", "Gonzalez", , "juanr.gonzalez@isglobal.org", role = c("aut", "cre")),
              person("Dolors", "Pelegri-Siso", , "dolors.pelegri@isglobal.org", role = "aut"))
+BugReports: https://github.com/isglobal-brge/methylclockData/issues
 biocViews: 
-  GEO,
+  SpecimenSource,
   ExperimentHub,
-  Tissue
+  Tissue,
+  OrganismData,
+  Homo_sapiens_Data
 URL: https://github.com/isglobal-brge/methylclockData
-Depends: 
-  Biobase, 
+Imports: 
   ExperimentHubData,
   ExperimentHub,
   utils
+Suggests: 
+	knitr, 
+	rmarkdown
 License: MIT + file LICENSE
 NeedsCompilation: no
+VignetteBuilder: knitr
