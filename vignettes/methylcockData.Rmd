@@ -18,8 +18,6 @@ The methylclockData package is a repository of a few public datasets that
 needs the *methylclock* package to estimate chronological and gestational DNA 
 methylation (DNAm) age as well as biological age using different methylation clocks.
 
-We use the data from package `meffil` (@min2018meffil) that provides some
-functions to estimate cell counts using predefined datasets. 
 
 ## Chronological DNAm age (in years)
 
@@ -56,8 +54,9 @@ The biological DNAm clocks implemented in our package are:
 In the below example, we show how one can download this dataset from 
 ExperimentHub.
 
-```{r get-tcga}
+```{r get_experimenthub, warning = FALSE, message=FALSE}
 library(ExperimentHub)
+library(methylclockData)
 
 # Get experimentHub records
 eh <-  ExperimentHub()
@@ -69,13 +68,67 @@ pData <- query(eh , "methylclockData")
 df <- mcols(pData)
 df
 
-# Retrieve data
-pData["EH3913"]
+# Retrieve data with Hobarth's clock coefficients
+pData["EH6071"]
 
-# Download data
-# data <- pData[["EH3913"]]
 
 ```
+
+We also implemented some functions to easy access to the different datasets , for example, we can access to Hovarths CpGs to train a Bayesian Neural Network with function `cpgs_bn` or to `coefHannum` for Hannum's clock coefficients
+
+```{r get_Clocks, warning = FALSE, message=FALSE}
+
+#  Hovarths CpGs to train a Bayesian Neural Network
+cpgs.bn <- cpgs_bn()
+head(cpgs.bn)
+
+# Hannum's clock coefficients
+coefHannum <- coefHannum()
+head(coefHannum)
+
+# Hobarth's clock coefficients
+coefHorvath <- coefHorvath()
+head(coefHorvath)
+
+# Knight's clock coefficients
+coefKnightGA <- coefKnightGA()
+head(coefKnightGA)
+
+# Lee's Gestational Age clock coefficients
+coefLeeGA <- coefLeeGA()
+head(coefLeeGA)
+
+# Levine's clock coefficients
+coefLevine <- coefLevine()
+head(coefLevine)
+
+# Mayne's clock coefficients
+coefMayneGA <- coefMayneGA()
+head(coefMayneGA)
+
+# PedBE's clock coefficients
+coefPedBE <- coefPedBE()
+head(coefPedBE)
+
+#  Horvath’s skin+blood clock coefficients
+coefSkin <- coefSkin()
+head(coefSkin)
+
+# Telomere Length clock coefficients
+coefTL <- coefTL()
+head(coefTL)
+
+#  Wu's clock coefficients
+Wu <- Wu()
+head(Wu)
+
+# # references
+references <- references()
+load(references())
+
+```
+
+
 For more information in how loading and use of the data, please, refer to [`MethylClock` vignette](https://github.com/isglobal-brge/methylclock) 
 
 
