@@ -45,3 +45,4 @@ vignettes/*.pdf
 *.Rbuildignore
 methylclockData.Rproj
 *.old
+*.Rproj
