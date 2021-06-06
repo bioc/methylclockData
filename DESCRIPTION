@@ -9,17 +9,17 @@ Description: Collection of 9 datasets, andrews and bakulski cord blood,
     Collection of 12 datasets to use with MethylClock package to estimate
     chronological and gestational DNA methylationwith estimators to use wit
     different methylation clocks
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: c(person("Juan R.", "Gonzalez", , "juanr.gonzalez@isglobal.org", role = c("aut", "cre")),
              person("Dolors", "Pelegri-Siso", , "dolors.pelegri@isglobal.org", role = "aut"))
 BugReports: https://github.com/isglobal-brge/methylclockData/issues
+URL: https://github.com/isglobal-brge/methylclockData
 biocViews: 
   SpecimenSource,
   ExperimentHub,
   Tissue,
   OrganismData,
   Homo_sapiens_Data
-URL: https://github.com/isglobal-brge/methylclockData
 Imports: 
   ExperimentHubData,
   ExperimentHub,
@@ -29,4 +29,6 @@ Suggests:
 	rmarkdown
 License: MIT + file LICENSE
 NeedsCompilation: no
+Encoding: UTF-8
+RoxygenNote: 7.1.1
 VignetteBuilder: knitr
