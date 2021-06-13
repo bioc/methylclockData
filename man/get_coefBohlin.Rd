@@ -13,5 +13,5 @@ coefBohlin dataset
 \code{get_coefBohlin} returns the Bohlin's clock coefficients
 }
 \examples{
-cget_coefBohlinoefBohlin()
+get_coefBohlinoefBohlin()
 }
