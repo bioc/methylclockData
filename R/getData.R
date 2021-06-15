@@ -37,7 +37,7 @@ get_cpgs_bn <- function()
 #'
 #' \code{get_coefBohlin} returns the Bohlin's clock coefficients
 #' @return coefBohlin dataset
-#' @examples get_coefBohlinoefBohlin()
+#' @examples get_coefBohlin()
 #' @export
 get_coefBohlin <- function(){
     eh <- get_ExperimentHub()
