@@ -60,7 +60,7 @@ library(ExperimentHub)
 library(methylclockData)
 
 # Get experimentHub records
-eh <-  ExperimentHub()
+eh <- ExperimentHub()
 
 # Get data about methylclockData experimentHub
 pData <- query(eh , "methylclockData")
@@ -111,7 +111,7 @@ head(coefMayneGA)
 coefPedBE <- get_coefPedBE()
 head(coefPedBE)
 
-#  Horvath’s skin+blood clock coefficients
+#  Horvath's skin+blood clock coefficients
 coefSkin <- get_coefSkin()
 head(coefSkin)
 
