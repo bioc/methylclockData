@@ -2,9 +2,9 @@
 title: "references"
 date: "`r doc_date()`"
 vignette: >
-  %\VignetteIndexEntry{References for metilclock using Bioconductor's ExperimentHub}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+  % \VignetteIndexEntry{References for metilclock using Bioconductor's ExperimentHub}
+  % \VignetteEngine{knitr::rmarkdown}
+  % \VignetteEncoding{UTF-8}
 output: 
   BiocStyle::html_document
 ---
