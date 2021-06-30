@@ -7,7 +7,7 @@
 .get_eh <- function() {
     get("eh")
 }
-    
+
 
 
 get_ExperimentHub <- function()
@@ -22,7 +22,7 @@ get_ExperimentHub <- function()
 
 #' cpgs_bn
 #'
-#' \code{get_cpgs_bn} returns data to use Horvath's CpGs to train a 
+#' \code{get_cpgs_bn} returns data to use Horvath's CpGs to train a
 #' Bayesian Neural Network (BNN)
 #' @return cpgs_bn dataset
 #' @examples get_cpgs_bn()
@@ -37,7 +37,7 @@ get_cpgs_bn <- function()
 #'
 #' \code{get_coefBohlin} returns the Bohlin's clock coefficients
 #' @return coefBohlin dataset
-#' @examples cget_coefBohlinoefBohlin()
+#' @examples get_coefBohlin()
 #' @export
 get_coefBohlin <- function(){
     eh <- get_ExperimentHub()
@@ -127,7 +127,7 @@ get_coefPedBE <- function(){
 
 #' coefSkin
 #'
-#' \code{get_coefSkin} returns the Horvath’s skin+blood clock coefficients
+#' \code{get_coefSkin} returns the Horvath's skin+blood clock coefficients
 #' @return coefSkin dataset
 #' @examples get_coefSkin()
 #' @export
@@ -199,8 +199,8 @@ get_TestDataset <- function(){
 #'
 #' \code{get_references} returns the file with references data
 #' @description The methylclockData package is a repository of a few public
-#' datasets that needs the *methylclock* package to estimate chronological 
-#' and gestational DNA methylation (DNAm) age as well as biological age 
+#' datasets that needs the *methylclock* package to estimate chronological
+#' and gestational DNA methylation (DNAm) age as well as biological age
 #' using different methylation clocks.
 #' @format   A list with different data frame.
 #'   \describe{

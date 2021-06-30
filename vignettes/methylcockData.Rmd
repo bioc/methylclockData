@@ -2,8 +2,9 @@
 title: "references"
 date: "`r doc_date()`"
 vignette: >
-  %\VignetteIndexEntry{References for metilclock using Bioconductor's ExperimentHub}
-  %\VignetteEngine{knitr::rmarkdown}
+  % \VignetteIndexEntry{References for metilclock using Bioconductor's ExperimentHub}
+  % \VignetteEngine{knitr::rmarkdown}
+  % \VignetteEncoding{UTF-8}
 output: 
   BiocStyle::html_document
 ---
@@ -59,7 +60,7 @@ library(ExperimentHub)
 library(methylclockData)
 
 # Get experimentHub records
-eh <-  ExperimentHub()
+eh <- ExperimentHub()
 
 # Get data about methylclockData experimentHub
 pData <- query(eh , "methylclockData")
@@ -74,57 +75,57 @@ pData["EH6071"]
 
 ```
 
-We also implemented some functions to easy access to the different datasets , for example, we can access to Hovarths CpGs to train a Bayesian Neural Network with function `cpgs_bn` or to `coefHannum` for Hannum's clock coefficients
+We also implemented some functions to easy access to the different datasets , for example, we can access to Hovarths CpGs to train a Bayesian Neural Network with function `get_cpgs_bn` or to `get_coefHannum` for Hannum's clock coefficients
 
 ```{r get_Clocks, warning = FALSE, message=FALSE}
 
 #  Hovarths CpGs to train a Bayesian Neural Network
-cpgs.bn <- cpgs_bn()
+cpgs.bn <- get_cpgs_bn()
 head(cpgs.bn)
 
 # Hannum's clock coefficients
-coefHannum <- coefHannum()
+coefHannum <- get_coefHannum()
 head(coefHannum)
 
 # Hobarth's clock coefficients
-coefHorvath <- coefHorvath()
+coefHorvath <- get_coefHorvath()
 head(coefHorvath)
 
 # Knight's clock coefficients
-coefKnightGA <- coefKnightGA()
+coefKnightGA <- get_coefKnightGA()
 head(coefKnightGA)
 
 # Lee's Gestational Age clock coefficients
-coefLeeGA <- coefLeeGA()
+coefLeeGA <- get_coefLeeGA()
 head(coefLeeGA)
 
 # Levine's clock coefficients
-coefLevine <- coefLevine()
+coefLevine <- get_coefLevine()
 head(coefLevine)
 
 # Mayne's clock coefficients
-coefMayneGA <- coefMayneGA()
+coefMayneGA <- get_coefMayneGA()
 head(coefMayneGA)
 
 # PedBE's clock coefficients
-coefPedBE <- coefPedBE()
+coefPedBE <- get_coefPedBE()
 head(coefPedBE)
 
-#  Horvath’s skin+blood clock coefficients
-coefSkin <- coefSkin()
+#  Horvath's skin+blood clock coefficients
+coefSkin <- get_coefSkin()
 head(coefSkin)
 
 # Telomere Length clock coefficients
-coefTL <- coefTL()
+coefTL <- get_coefTL()
 head(coefTL)
 
 #  Wu's clock coefficients
-Wu <- Wu()
+Wu <- get_coefWu()
 head(Wu)
 
 # # references
-references <- references()
-load(references())
+references <- get_references()
+load(references)
 
 ```
 
