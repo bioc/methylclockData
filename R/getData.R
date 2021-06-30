@@ -127,7 +127,7 @@ get_coefPedBE <- function(){
 
 #' coefSkin
 #'
-#' \code{get_coefSkin} returns the Horvath’s skin+blood clock coefficients
+#' \code{get_coefSkin} returns the Horvath's skin+blood clock coefficients
 #' @return coefSkin dataset
 #' @examples get_coefSkin()
 #' @export
