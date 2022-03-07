@@ -233,3 +233,36 @@ get_references <- function(){
     eh <- get_ExperimentHub()
     references <- eh[["EH6083"]]
 }
+
+#' coefBLUP
+#'
+#' \code{get_coefBLUP} returns the Best Linear Unbiased Prediction (BLUP) clock coefficients
+#' @return coefBLUP dataset
+#' @examples get_coefBLUP()
+#' @export
+get_coefBLUP <- function(){
+  eh <- get_ExperimentHub()
+  coefBLUP <- eh[["EH6078"]]
+}
+
+#' coefEN
+#'
+#' \code{get_coefEN} returns the Elastic Net (EN) clock coefficients
+#' @return coefEN dataset
+#' @examples get_coefEN()
+#' @export
+get_coefEN <- function(){
+  eh <- get_ExperimentHub()
+  coefEN <- eh[["EH6078"]]
+}
+
+#' coefEPIC
+#'
+#' \code{get_coefEPIC} returns the EPIC clock coefficients
+#' @return coefEPIC dataset
+#' @examples get_coefEPIC()
+#' @export
+get_coefEPIC <- function(){
+  eh <- get_ExperimentHub()
+  coefEPIC <- eh[["EH6078"]]
+}
