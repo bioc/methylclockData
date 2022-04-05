@@ -2,7 +2,10 @@
 
 export(get_MethylationDataExample)
 export(get_TestDataset)
+export(get_coefBLUP)
 export(get_coefBohlin)
+export(get_coefEN)
+export(get_coefEPIC)
 export(get_coefHannum)
 export(get_coefHorvath)
 export(get_coefKnightGA)

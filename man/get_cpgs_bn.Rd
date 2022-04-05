@@ -10,7 +10,7 @@ get_cpgs_bn()
 cpgs_bn dataset
 }
 \description{
-\code{get_cpgs_bn} returns data to use Horvath's CpGs to train a 
+\code{get_cpgs_bn} returns data to use Horvath's CpGs to train a
 Bayesian Neural Network (BNN)
 }
 \examples{

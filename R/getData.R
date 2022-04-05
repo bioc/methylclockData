@@ -242,7 +242,7 @@ get_references <- function(){
 #' @export
 get_coefBLUP <- function(){
   eh <- get_ExperimentHub()
-  coefBLUP <- eh[["EH6078"]]
+  coefBLUP <- eh[["EH7367"]]
 }
 
 #' coefEN
@@ -253,7 +253,7 @@ get_coefBLUP <- function(){
 #' @export
 get_coefEN <- function(){
   eh <- get_ExperimentHub()
-  coefEN <- eh[["EH6078"]]
+  coefEN <- eh[["EH7368"]]
 }
 
 #' coefEPIC
@@ -264,5 +264,5 @@ get_coefEN <- function(){
 #' @export
 get_coefEPIC <- function(){
   eh <- get_ExperimentHub()
-  coefEPIC <- eh[["EH6078"]]
+  coefEPIC <- eh[["EH7369"]]
 }

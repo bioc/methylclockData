@@ -10,7 +10,7 @@ get_coefSkin()
 coefSkin dataset
 }
 \description{
-\code{get_coefSkin} returns the Horvath’s skin+blood clock coefficients
+\code{get_coefSkin} returns the Horvath's skin+blood clock coefficients
 }
 \examples{
 get_coefSkin()

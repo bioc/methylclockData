@@ -37,8 +37,8 @@ references dataset
 }
 \description{
 The methylclockData package is a repository of a few public
-datasets that needs the *methylclock* package to estimate chronological 
-and gestational DNA methylation (DNAm) age as well as biological age 
+datasets that needs the *methylclock* package to estimate chronological
+and gestational DNA methylation (DNAm) age as well as biological age
 using different methylation clocks.
 }
 \details{
