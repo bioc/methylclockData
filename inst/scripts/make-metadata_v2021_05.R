@@ -94,4 +94,4 @@ meta <- data.frame(
    Notes = ""
 )
 
-write.csv(meta, file="inst/extdata/metadata_v2022_04.csv", row.names=FALSE)
+write.csv(meta, file="inst/extdata/metadata_v2021_05.csv", row.names=FALSE)

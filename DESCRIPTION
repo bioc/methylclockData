@@ -31,5 +31,5 @@ Suggests:
 License: MIT + file LICENSE
 NeedsCompilation: no
 Encoding: UTF-8
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.3
 VignetteBuilder: knitr

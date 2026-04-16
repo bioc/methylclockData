@@ -56,93 +56,30 @@ The biological DNAm clocks implemented in our package are:
 
 # How to load data
 
-In the below example, we show how one can download this dataset from 
-ExperimentHub.
+The `methylclockData` package provides simple accessor functions for all its resources. 
+When you load the library, these functions are automatically created.
 
-```{r get_experimenthub, warning = FALSE, message=FALSE}
-library(ExperimentHub)
+```{r access_data, warning=FALSE, message=FALSE}
 library(methylclockData)
 
-# Get experimentHub records
-eh <- ExperimentHub()
+# Load Horvath's coefficients
+horvath_coefs <- coefHorvath()
+head(horvath_coefs)
 
-# Get data about methylclockData experimentHub
-pData <- query(eh , "methylclockData")
-
-# Get information rows about methylclockData
-df <- mcols(pData)
-df
-
-# Retrieve data with Hobarth's clock coefficients
-pData["EH6071"]
-
-
+# Load reference data for cell counts
+ref_data <- references()
 ```
 
-We also implemented some functions to easy access to the different datasets , for example, we can access to Hovarths CpGs to train a Bayesian Neural Network with function `get_cpgs_bn` or to `get_coefHannum` for Hannum's clock coefficients
+If you prefer to use the standard `ExperimentHub` interface:
 
-```{r get_Clocks, warning = FALSE, message=FALSE}
+```{r access_data_std, warning=FALSE, message=FALSE}
+library(ExperimentHub)
 
-#  Hovarths CpGs to train a Bayesian Neural Network
-cpgs.bn <- get_cpgs_bn()
-head(cpgs.bn)
+eh <- ExperimentHub()
+my_data <- query(eh, "methylclockData")
 
-# Hannum's clock coefficients
-coefHannum <- get_coefHannum()
-head(coefHannum)
-
-# Hobarth's clock coefficients
-coefHorvath <- get_coefHorvath()
-head(coefHorvath)
-
-# Knight's clock coefficients
-coefKnightGA <- get_coefKnightGA()
-head(coefKnightGA)
-
-# Lee's Gestational Age clock coefficients
-coefLeeGA <- get_coefLeeGA()
-head(coefLeeGA)
-
-# Levine's clock coefficients
-coefLevine <- get_coefLevine()
-head(coefLevine)
-
-# Mayne's clock coefficients
-coefMayneGA <- get_coefMayneGA()
-head(coefMayneGA)
-
-# PedBE's clock coefficients
-coefPedBE <- get_coefPedBE()
-head(coefPedBE)
-
-#  Horvath's skin+blood clock coefficients
-coefSkin <- get_coefSkin()
-head(coefSkin)
-
-# Telomere Length clock coefficients
-coefTL <- get_coefTL()
-head(coefTL)
-
-# BLUP clock coefficients
-coefBLUP <- get_coefBLUP()
-head(coefBLUP)
-
-# EN clock coefficients
-coefEN <- get_coefEN()
-head(coefEN)
-
-# EPIC clock coefficients
-coefEPIC <- get_coefEPIC()
-head(coefEPIC)
-
-#  Wu's clock coefficients
-Wu <- get_coefWu()
-head(Wu)
-
-# # references
-references <- get_references()
-load(references)
-
+# Access by EH ID directly
+horvath <- my_data[["EH6071"]]
 ```
 
 
