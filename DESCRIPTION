@@ -1,15 +1,19 @@
 Package: methylclockData
 Title: Data for methylclock package
-Description: Collection of 9 datasets, andrews and bakulski cord blood,
-    blood gse35069, blood gse35069 chen, blood gse35069 complete, combined cord blood,
-    cord bloo d gse68456, gervin and lyle cord blood, guintivano dlpfc and
-    saliva gse48472". Data downloaded from 
-    [meffil](https://github.com/perishky/meffil/). Data used to estimate
-    cell counts using Extrinsic epigenetic age acceleration (EEAA) method
-    Collection of 12 datasets to use with MethylClock package to estimate
-    chronological and gestational DNA methylationwith estimators to use wit
-    different methylation clocks
-Version: 1.21.0
+Description: Data resources used by the methylclock package to estimate
+    chronological, gestational and biological age from DNA methylation, and
+    to adjust those estimates for blood cell composition. It provides the
+    coefficient tables of the individual clocks, the CpG sets of the mitotic
+    counters, the weights of the neural network clock, and example
+    methylation datasets. It also provides nine cell type reference datasets
+    (andrews and bakulski cord blood, blood gse35069, blood gse35069 chen,
+    blood gse35069 complete, combined cord blood, cord blood gse68456,
+    gervin and lyle cord blood, guintivano dlpfc, saliva gse48472),
+    downloaded from meffil (https://github.com/perishky/meffil/), which are
+    used to estimate cell counts for the extrinsic epigenetic age
+    acceleration (EEAA) method. All resources are served through
+    ExperimentHub.
+Version: 1.21.1
 Authors@R: c(person("Juan R.", "Gonzalez", ,"juanr.gonzalez@isglobal.org", role = c("aut")),
              person("Dolors", "Pelegri-Siso", ,"dolors.pelegri@isglobal.org", role = c("aut", "cre")))
 BugReports: https://github.com/isglobal-brge/methylclockData/issues
@@ -31,5 +35,5 @@ Suggests:
 License: MIT + file LICENSE
 NeedsCompilation: no
 Encoding: UTF-8
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.3
 VignetteBuilder: knitr

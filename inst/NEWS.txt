@@ -1,3 +1,15 @@
+Changes in version 1.21.1
+--------------------------
+  - added 28 resources for the clocks introduced in the methylclock
+    redesign: DunedinPACE (coefficients and reference means), the four
+    NEOage clocks, Vidal-Bralo, Lin, Weidner, the causal clocks CausAge,
+    DamAge and AdaptAge, the mitotic counters epiTOC1, epiTOC2, HypoClock,
+    stemTOC and RepliTali, the eight McCartney EpiScores, mCigarette, and
+    the AltumAge network weights and input CpG order
+  - these resources are hosted on Zenodo; the ones published previously are
+    unchanged
+  - rewrote the package description, which no longer matched its contents
+
 Changes in version 1.3.1
 --------------------------
   - added data for BLUP, EN and EPIC clocks
