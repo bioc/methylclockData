@@ -180,7 +180,7 @@ meta <- data.frame(
                     "Rda",
                     "Rda",
                     "Rda"),
-    Location_Prefix = "https://zenodo.org/records/PENDING/files/",
+    Location_Prefix = "https://zenodo.org/records/21840402/files/",
     RDataPath = c("coefDunedinPACE.rda",
                 "coefDunedinPACEGS.rda",
                 "coefNEOaPMA450K.rda",
