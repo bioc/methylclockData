@@ -6,8 +6,10 @@ Changes in version 1.21.1
     DamAge and AdaptAge, the mitotic counters epiTOC1, epiTOC2, HypoClock,
     stemTOC and RepliTali, the eight McCartney EpiScores, mCigarette, and
     the AltumAge network weights and input CpG order
-  - these resources are hosted on Zenodo; the ones published previously are
-    unchanged
+  - these resources are hosted on Zenodo, doi:10.5281/zenodo.21840402; the
+    ones published previously are unchanged
+  - each resource keeps the licence of its original source, which are not
+    uniform; see the Zenodo record for the licence of each one
   - rewrote the package description, which no longer matched its contents
 
 Changes in version 1.3.1
