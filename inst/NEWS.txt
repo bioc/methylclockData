@@ -1,3 +1,11 @@
+Changes in version 1.21.2
+--------------------------
+  - the 28 resources added in 1.21.1 are now available from ExperimentHub
+    (EH10460 to EH10487): their accessor functions carry the assigned ids
+  - metadata_v2026_08.csv now records Location_Prefix as the Zenodo host
+    and the record path in RDataPath, matching the form loaded into the
+    ExperimentHub production database
+
 Changes in version 1.21.1
 --------------------------
   - added 28 resources for the clocks introduced in the methylclock

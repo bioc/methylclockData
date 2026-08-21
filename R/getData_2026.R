@@ -16,7 +16,7 @@
 get_coefDunedinPACE <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefDunedinPACE"]]
+    eh[["EH10460"]]
 }
 
 #' coefDunedinPACEGS
@@ -31,7 +31,7 @@ get_coefDunedinPACE <- function()
 get_coefDunedinPACEGS <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefDunedinPACEGS"]]
+    eh[["EH10461"]]
 }
 
 #' coefNEOaPMA450K
@@ -46,7 +46,7 @@ get_coefDunedinPACEGS <- function()
 get_coefNEOaPMA450K <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefNEOaPMA450K"]]
+    eh[["EH10462"]]
 }
 
 #' coefNEOaPMAEPIC
@@ -61,7 +61,7 @@ get_coefNEOaPMA450K <- function()
 get_coefNEOaPMAEPIC <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefNEOaPMAEPIC"]]
+    eh[["EH10463"]]
 }
 
 #' coefNEOaPNA450K
@@ -76,7 +76,7 @@ get_coefNEOaPMAEPIC <- function()
 get_coefNEOaPNA450K <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefNEOaPNA450K"]]
+    eh[["EH10464"]]
 }
 
 #' coefNEOaPNAEPIC
@@ -91,7 +91,7 @@ get_coefNEOaPNA450K <- function()
 get_coefNEOaPNAEPIC <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefNEOaPNAEPIC"]]
+    eh[["EH10465"]]
 }
 
 #' coefVidalBralo
@@ -106,7 +106,7 @@ get_coefNEOaPNAEPIC <- function()
 get_coefVidalBralo <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefVidalBralo"]]
+    eh[["EH10466"]]
 }
 
 #' coefEpiTOC1
@@ -121,7 +121,7 @@ get_coefVidalBralo <- function()
 get_coefEpiTOC1 <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefEpiTOC1"]]
+    eh[["EH10467"]]
 }
 
 #' coefHypoClock
@@ -136,7 +136,7 @@ get_coefEpiTOC1 <- function()
 get_coefHypoClock <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefHypoClock"]]
+    eh[["EH10468"]]
 }
 
 #' coefStemTOC
@@ -151,7 +151,7 @@ get_coefHypoClock <- function()
 get_coefStemTOC <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefStemTOC"]]
+    eh[["EH10469"]]
 }
 
 #' coefCausAge
@@ -166,7 +166,7 @@ get_coefStemTOC <- function()
 get_coefCausAge <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefCausAge"]]
+    eh[["EH10470"]]
 }
 
 #' coefDamAge
@@ -181,7 +181,7 @@ get_coefCausAge <- function()
 get_coefDamAge <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefDamAge"]]
+    eh[["EH10471"]]
 }
 
 #' coefAdaptAge
@@ -196,7 +196,7 @@ get_coefDamAge <- function()
 get_coefAdaptAge <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefAdaptAge"]]
+    eh[["EH10472"]]
 }
 
 #' coefLin
@@ -210,7 +210,7 @@ get_coefAdaptAge <- function()
 get_coefLin <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefLin"]]
+    eh[["EH10473"]]
 }
 
 #' coefWeidner
@@ -225,7 +225,7 @@ get_coefLin <- function()
 get_coefWeidner <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefWeidner"]]
+    eh[["EH10474"]]
 }
 
 #' coefAltumAgeRef
@@ -240,7 +240,7 @@ get_coefWeidner <- function()
 get_coefAltumAgeRef <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefAltumAgeRef"]]
+    eh[["EH10475"]]
 }
 
 #' coefAltumAge
@@ -255,7 +255,7 @@ get_coefAltumAgeRef <- function()
 get_coefAltumAge <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefAltumAge"]]
+    eh[["EH10476"]]
 }
 
 #' coefMcCartneySmoking
@@ -270,7 +270,7 @@ get_coefAltumAge <- function()
 get_coefMcCartneySmoking <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefMcCartneySmoking"]]
+    eh[["EH10477"]]
 }
 
 #' coefMcCartneyAlcohol
@@ -285,7 +285,7 @@ get_coefMcCartneySmoking <- function()
 get_coefMcCartneyAlcohol <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefMcCartneyAlcohol"]]
+    eh[["EH10478"]]
 }
 
 #' coefMcCartneyBMI
@@ -300,7 +300,7 @@ get_coefMcCartneyAlcohol <- function()
 get_coefMcCartneyBMI <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefMcCartneyBMI"]]
+    eh[["EH10479"]]
 }
 
 #' coefMcCartneyBodyFat
@@ -315,7 +315,7 @@ get_coefMcCartneyBMI <- function()
 get_coefMcCartneyBodyFat <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefMcCartneyBodyFat"]]
+    eh[["EH10480"]]
 }
 
 #' coefMcCartneyEducation
@@ -331,7 +331,7 @@ get_coefMcCartneyBodyFat <- function()
 get_coefMcCartneyEducation <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefMcCartneyEducation"]]
+    eh[["EH10481"]]
 }
 
 #' coefMcCartneyHDL
@@ -346,7 +346,7 @@ get_coefMcCartneyEducation <- function()
 get_coefMcCartneyHDL <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefMcCartneyHDL"]]
+    eh[["EH10482"]]
 }
 
 #' coefMcCartneyLDL
@@ -361,7 +361,7 @@ get_coefMcCartneyHDL <- function()
 get_coefMcCartneyLDL <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefMcCartneyLDL"]]
+    eh[["EH10483"]]
 }
 
 #' coefMcCartneyTotalChol
@@ -377,7 +377,7 @@ get_coefMcCartneyLDL <- function()
 get_coefMcCartneyTotalChol <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefMcCartneyTotalChol"]]
+    eh[["EH10484"]]
 }
 
 #' coefRepliTali
@@ -392,7 +392,7 @@ get_coefMcCartneyTotalChol <- function()
 get_coefRepliTali <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefRepliTali"]]
+    eh[["EH10485"]]
 }
 
 #' coefMcCigarette
@@ -407,7 +407,7 @@ get_coefRepliTali <- function()
 get_coefMcCigarette <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefMcCigarette"]]
+    eh[["EH10486"]]
 }
 
 #' coefEpiTOC2
@@ -422,6 +422,6 @@ get_coefMcCigarette <- function()
 get_coefEpiTOC2 <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefEpiTOC2"]]
+    eh[["EH10487"]]
 }
 
