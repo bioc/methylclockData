@@ -425,3 +425,19 @@ get_coefEpiTOC2 <- function()
     eh[["EH10487"]]
 }
 
+#' coefGarma
+#'
+#' Coefficients Garma cross-platform age clock. 4962 CpGs described in Garma
+#' (2024); includes squared-beta terms (power column). Trained on probes
+#' shared by the 450K, EPICv1 and EPICv2 arrays. Licence CC BY-NC-ND 4.0.
+#'
+#' \code{get_coefGarma} retrieves this resource from ExperimentHub.
+#' @return coefGarma dataset
+#' @examples \dontrun{get_coefGarma()}
+#' @export
+get_coefGarma <- function()
+{
+    eh <- get_ExperimentHub()
+    eh[["EH_PENDING_coefGarma"]]
+}
+

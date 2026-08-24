@@ -13,7 +13,7 @@ Description: Data resources used by the methylclock package to estimate
     used to estimate cell counts for the extrinsic epigenetic age
     acceleration (EEAA) method. All resources are served through
     ExperimentHub.
-Version: 1.21.2
+Version: 1.21.3
 Authors@R: c(person("Juan R.", "Gonzalez", ,"juanr.gonzalez@isglobal.org", role = c("aut")),
              person("Dolors", "Pelegri-Siso", ,"dolors.pelegri@isglobal.org", role = c("aut", "cre")))
 BugReports: https://github.com/isglobal-brge/methylclockData/issues

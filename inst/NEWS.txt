@@ -1,3 +1,13 @@
+Changes in version 1.21.3
+--------------------------
+  - added the coefGarma resource: the cross-platform age model of Garma &
+    Quintela-Fandino (2024), trained on probes shared by the 450K, EPICv1
+    and EPICv2 arrays; its table includes squared-beta terms marked by a
+    power column
+  - the resource keeps its source licence (CC BY-NC-ND 4.0), as the deposit
+    declares per resource; hosted on a new version of the same Zenodo
+    deposit
+
 Changes in version 1.21.2
 --------------------------
   - the 28 resources added in 1.21.1 are now available from ExperimentHub
