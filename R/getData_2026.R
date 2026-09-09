@@ -433,11 +433,11 @@ get_coefEpiTOC2 <- function()
 #'
 #' \code{get_coefGarma} retrieves this resource from ExperimentHub.
 #' @return coefGarma dataset
-#' @examples \dontrun{get_coefGarma()}
+#' @examples get_coefGarma()
 #' @export
 get_coefGarma <- function()
 {
     eh <- get_ExperimentHub()
-    eh[["EH_PENDING_coefGarma"]]
+    eh[["EH10518"]]
 }
 

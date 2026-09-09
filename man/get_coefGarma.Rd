@@ -18,5 +18,5 @@ shared by the 450K, EPICv1 and EPICv2 arrays. Licence CC BY-NC-ND 4.0.
 \code{get_coefGarma} retrieves this resource from ExperimentHub.
 }
 \examples{
-\dontrun{get_coefGarma()}
+get_coefGarma()
 }
